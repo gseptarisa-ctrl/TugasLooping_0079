@@ -42,3 +42,9 @@ bool cekFibonacci(int n){
 
     return false;
 }
+
+//menambahkan prosedur input
+void input(){
+    cout << "Masukkan angka : ";
+    cin >> n;
+}
