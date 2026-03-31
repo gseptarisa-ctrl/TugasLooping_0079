@@ -21,3 +21,11 @@ bool cekPrima(int n){
     }
     return true;
 }
+
+//fungsi cek bilangan fibonacci
+bool cekFibonacci(int n){
+    int a = 0; //variabel lokal
+    int b = 1; //variabel lokal
+    int c = a + b; //variabel lokal
+
+   
