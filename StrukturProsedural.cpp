@@ -28,4 +28,6 @@ bool cekFibonacci(int n){
     int b = 1; //variabel lokal
     int c = a + b; //variabel lokal
 
-   
+       if (n == 0 || n == 1){
+        return true;
+    }
