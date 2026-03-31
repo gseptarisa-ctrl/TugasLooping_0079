@@ -57,3 +57,12 @@ void hasilPrima(){
         cout << n << " bukan bilangan prima." << endl;
     }
 }
+
+//prosedur hasil fibonacci
+void hasilFibonacci(){
+    if (cekFibonacci(n)){
+        cout << n << " adalah bilangan fibonacci." << endl;
+    } else {
+        cout << n << " bukan bilangan fibonacci." << endl;
+    }
+}
