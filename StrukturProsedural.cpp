@@ -76,3 +76,9 @@ void menu(){
     cout << "Masukkan pilihan : ";
     cin >> pilihan;
 }
+
+
+//program utama
+int main(){
+    do {
+       
