@@ -48,3 +48,12 @@ void input(){
     cout << "Masukkan angka : ";
     cin >> n;
 }
+
+//prosedur hasil prima
+void hasilPrima(){
+    if (cekPrima(n)){
+        cout << n << " adalah bilangan prima." << endl;
+    } else {
+        cout << n << " bukan bilangan prima." << endl;
+    }
+}
