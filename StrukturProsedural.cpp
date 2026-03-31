@@ -81,4 +81,6 @@ void menu(){
 //program utama
 int main(){
     do {
-       
+        menu();
+        switch (pilihan){
+          
