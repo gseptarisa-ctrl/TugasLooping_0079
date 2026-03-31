@@ -91,3 +91,5 @@ int main(){
                 input();
                 hasilFibonacci();
                 break;
+            case 0:
+                cout << "Terima kasih telah menggunakan program ini." << endl;
