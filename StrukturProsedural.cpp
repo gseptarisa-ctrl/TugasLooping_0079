@@ -12,4 +12,12 @@ bool cekPrima(int n){
         return false;
     }
     int i = 2; //variabel lokal
-    
+
+    while (i < n){  //perulangan while
+        if (n % i == 0){    //percabangan
+            return false;
+        }
+        i++;
+    }
+    return true;
+}
