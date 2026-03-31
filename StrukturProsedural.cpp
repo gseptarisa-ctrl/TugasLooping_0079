@@ -94,3 +94,5 @@ int main(){
             case 0:
                 cout << "Terima kasih telah menggunakan program ini." << endl;
                 break;
+            default:
+                cout << "Pilihan tidak valid." << endl;
