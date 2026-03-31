@@ -86,5 +86,8 @@ int main(){
             case 1:
                 input();
                 hasilPrima();
+                break;                                  
+            case 2:              
+                input();
+                hasilFibonacci();
                 break;
-           
