@@ -96,8 +96,9 @@ int main(){
                 break;
             default:
                 cout << "Pilihan tidak valid." << endl;
-                }
-    }
+             }
+
+         } while (pilihan != 0);
 
     return 0;
 }
